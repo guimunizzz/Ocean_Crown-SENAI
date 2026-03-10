@@ -295,43 +295,9 @@ Este projeto foi desenvolvido para fins educacionais como parte do programa do *
 
 ---
 
-## 🙏 Agradecimentos
-
-- **SENAI** - Pelo suporte educacional
-- **Font Awesome** - Pelos ícones
-- **Instrutores** - Pela orientação durante o desenvolvimento
-
----
-
-## 📸 Screenshots
-
-> 💡 **Dica**: Adicione screenshots do projeto aqui para melhor visualização
-
-### Desktop View
-```
-[Adicione screenshot do desktop aqui]
-```
-
-### Mobile View
-```
-[Adicione screenshot do mobile aqui]
-```
-
----
-
 ## 📚 Recursos Adicionais
 
 - [MDN Web Docs](https://developer.mozilla.org/) - Documentação de referência
 - [CSS-Tricks](https://css-tricks.com/) - Guias e tutoriais CSS
 - [Font Awesome](https://fontawesome.com/) - Biblioteca de ícones
 - [BEM Methodology](https://en.bem.info/) - Metodologia BEM
-
----
-
-<div align="center">
-
-**⭐ Se este projeto foi útil para você, considere dar uma estrela!**
-
-Desenvolvido com ❤️ por Guilherme Muniz | SENAI 2026
-
-</div>
