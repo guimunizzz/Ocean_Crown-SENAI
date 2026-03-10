@@ -1,0 +1,57 @@
+.surface {
+    padding: 100px 30px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.surface__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.surface__cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.surface__card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.surface__card .title {
+    font-size: 3.3rem;
+    color: #234f90;
+    margin: 0;
+}
+
+.surface__card .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.surface__map {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surface__map img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}

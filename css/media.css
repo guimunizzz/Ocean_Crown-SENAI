@@ -1,0 +1,150 @@
+@media (max-width: 657px) {
+    .header {
+        height: 100px;
+    }
+
+    .header__icons {
+        display: block;
+    }
+
+    .header__icons .fa-x {
+        display: none;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav-item::after,
+    .header__nav-item::before {
+        display: none;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #menu:checked ~.header__nav {
+        display: block;
+        position: absolute;
+        top: 69px;
+        right: 0;
+        width: 50%;
+        height: 95vh;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    #menu:checked .header__top.fa-x {
+        display: block;
+    }
+
+    #menu:checked .header__top .fa-bars {
+        display: none;
+    }
+
+    .hero {
+        height: 150vh;
+    }
+
+    .features {
+        bottom: -200px;
+    }
+
+    .why__us {
+        padding-top: 225px;
+    }
+
+    .features__list {
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about__container {
+        grid-template: repeat(2, 1fr) / 1fr
+    }
+
+    .company__container {
+        grid-template: repeat(3, 1fr) / 1fr;
+    }
+
+    .services__container {
+        grid-template: repeat(6, 1fr) / 1fr
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer__brand {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer__social {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 658px) and (max-width: 920px) {
+    .header {
+        padding: 30px 10%;
+    }
+    .hero {
+        height: 150vh;
+    }
+
+    .features {
+        bottom: -200px;
+    }
+
+    .why__us {
+        padding-top: 225px;
+    }
+
+    .features__list {
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about,
+    .about__content {
+        padding: 25px;
+    }
+
+    .about__image::before {
+        bottom: 65px;
+        right: 45px;
+    }
+
+    .about__image::after {
+        bottom: 45px;
+        right: 75px;
+    }
+
+    .company__main {
+        grid-area: 1 / 1 /2 / 3
+    }
+
+    .company__container {
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    }
+
+    .services__container {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .footer {
+        padding: 50px 10% 25px;
+    }
+}

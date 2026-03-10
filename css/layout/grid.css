@@ -1,0 +1,10 @@
+/* .layout {
+    display: grid;
+    grid-template:
+    "hero" 90vh
+    "why" 400px
+    "about" auto
+    "company" auto
+    "services" auto
+    "global" 350px / 1fr
+} */

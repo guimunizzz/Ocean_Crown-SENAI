@@ -1,0 +1,101 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Garante altura minima */
+html, body {
+    height: 100%;
+    font-size: 16px;
+}
+
+/* Altura da linha */
+/* Se o texto tiver 16px, altura da linha tem 24px */
+body {
+    line-height: 1.5;
+}
+
+/* Imagens nunca estouram */
+img, picture, video {
+    display: block;
+    max-width: 100%;
+}
+
+/* Herdam as fontes */
+input, button, textarea {
+    font: inherit;
+}
+
+/* Textos nao quebram o layout */
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+
+/* Exemplo
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+}
+
+.item {
+    background-color: #bebebe;
+    border: 1px solid #ff0000;
+}
+
+.layout {
+    display: grid; 
+
+     3 colunas = 3 valores
+   grid-template-columns: 100px 1fr 200px;
+    grid-template-rows: 300px 400px 50px;
+
+    gap: 16px;
+} 
+
+ .header, .footer{
+    grid-column: 1/4;
+} 
+
+ .layout {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr 300px;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content sidebar"
+    "footer footer footer";
+
+    grid-template:
+    "header header header" 100px
+    "advert content sidebar" 1fr
+    "footer footer footer" 100px / 200px 1fr 200px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.advert {
+    grid-area: advert;
+}
+
+.sidebar {
+    grid-area: sidebar;
+} */
